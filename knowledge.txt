@@ -1,0 +1,19 @@
+VPN ISSUE:
+If GlobalProtect VPN shows "Unable to Connect",
+first verify internet connectivity.
+Then restart the PanGPS service.
+If the issue persists, refresh the VPN profile.
+
+PASSWORD ISSUE:
+If a user cannot log in because their password has expired,
+reset the password through the self-service password reset portal.
+
+SLOW LAPTOP:
+If the laptop is slow, check available disk space first.
+If free disk space is below 10 GB, clear temporary files.
+Then check CPU and memory utilization.
+
+OUTLOOK ISSUE:
+If Outlook cannot connect, verify internet connectivity.
+Restart Outlook and check whether Microsoft 365 services
+are accessible through the browser.

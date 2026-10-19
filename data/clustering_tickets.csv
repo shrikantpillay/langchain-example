@@ -1,0 +1,41 @@
+ticket_id,description,resolution_comment
+VPN001,GlobalProtect VPN unable to connect,Restarted PanGPS service and connection restored
+VPN002,User cannot connect to VPN from home,Restarted PanGPS service
+VPN003,Remote access connection is failing,Refreshed VPN certificate and connection restored
+VPN004,Unable to access corporate network remotely,Recreated GlobalProtect profile
+VPN005,VPN authentication keeps failing,Refreshed VPN certificate
+VPN006,Secure remote connection unavailable,Restarted PanGPS service
+VPN007,GlobalProtect connection fails after login,Recreated VPN profile
+VPN008,User unable to establish secure tunnel,Refreshed VPN certificate
+VPN009,Remote corporate access not working,Restarted PanGPS service
+VPN010,VPN client fails to establish connection,Recreated VPN profile
+ACC001,AD account keeps getting locked,Cleared cached Windows credentials
+ACC002,User account repeatedly locks after password change,Updated stored credentials on mobile device
+ACC003,Unable to login because domain account is locked,Unlocked AD account and cleared cached credentials
+ACC004,Windows account keeps locking repeatedly,Cleared Credential Manager entries
+ACC005,User cannot sign in due to account lockout,Unlocked Active Directory account
+ACC006,Domain credentials repeatedly getting locked,Updated old password stored on mobile device
+ACC007,Account locks shortly after user changes password,Cleared cached Outlook credentials
+ACC008,User unable to login because account keeps locking,Removed stored credentials and unlocked account
+ACC009,AD credentials continuously getting locked,Cleared Windows Credential Manager
+ACC010,Corporate account locked repeatedly,Updated cached credentials
+LAP001,Laptop is running very slow,Cleared temporary files and recovered disk space
+LAP002,Windows computer performance is very poor,Removed temporary files and restarted device
+LAP003,User reports laptop has become extremely sluggish,Cleared temp files and browser cache
+LAP004,Computer takes a long time to respond,Removed unnecessary startup applications
+LAP005,Laptop performance degraded significantly,Cleared temporary files
+LAP006,Windows device is responding slowly,Freed disk space and restarted laptop
+LAP007,Applications are taking very long to open,Cleared temporary files and recovered 15 GB
+LAP008,User experiencing poor laptop performance,Disabled unnecessary startup applications
+LAP009,System performance is very slow,Removed temporary files and rebooted device
+LAP010,Laptop freezes and responds slowly,Cleared temp files and freed disk space
+OUT001,Outlook cannot connect to mailbox,Restarted Outlook and connection restored
+OUT002,User unable to send or receive email in Outlook,Recreated Outlook profile
+OUT003,Outlook shows disconnected status,Restarted Outlook client
+OUT004,Email client cannot connect to Microsoft 365,Recreated Outlook profile
+OUT005,Outlook mailbox is not updating,Restarted Outlook and synchronized mailbox
+OUT006,User reports Outlook connection failure,Recreated Outlook profile
+OUT007,Emails are not downloading in Outlook,Restarted Outlook client
+OUT008,Outlook remains offline despite internet working,Recreated mail profile
+OUT009,User cannot access mailbox through Outlook,Restarted Outlook application
+OUT010,Outlook synchronization has stopped,Recreated Outlook profile

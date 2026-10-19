@@ -1,0 +1,6 @@
+ticket_id,issue_type,description,category,created_at,resolved_at,resolution_time,resolution_comment
+INC001,Incident,GlobalProtect VPN unable to connect,Network,2026-10-01 09:15:00,2026-10-01 09:45:00,30.0,Restarted PanGPS service and user confirmed VPN working
+INC002,Incident,Laptop running very slow,Hardware,2026-10-01 10:00:00,2026-10-01 11:30:00,90.0,Cleared temporary files and recovered 18 GB disk space
+INC003,Request,Password expired,Access,2026-10-02 08:30:00,2026-10-02 08:45:00,15.0,Password reset completed through self service portal
+INC004,Incident,Outlook cannot connect,Application,2026-10-02 14:00:00,2026-10-02 14:25:00,25.0,Restarted Outlook and user confirmed service restored
+INC005,Incident,VPN authentication failure,Network,2026-10-03 11:10:00,2026-10-03 11:50:00,40.0,Refreshed VPN certificate and connection restored
