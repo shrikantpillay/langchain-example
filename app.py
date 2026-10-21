@@ -1,23 +1,69 @@
+import json
 import truststore
+
 truststore.inject_into_ssl()
 
+from pathlib import Path
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 
-# Step 1: Load API key
+
+# ============================================================
+# STEP 1: LOAD API KEY
+# ============================================================
+
 load_dotenv()
 
-# Step 2: Load Knowledge source
-with open("knowledge.txt", "r") as file:
-    knowledge = file.read()
-# Step 2: Initialize Groq LLM
+
+# ============================================================
+# STEP 2: LOAD KNOWLEDGE OBJECTS
+# ============================================================
+
+KNOWLEDGE_FOLDER = Path("knowledge")
+
+knowledge_objects = []
+
+for file_path in KNOWLEDGE_FOLDER.glob("*.json"):
+
+    with open(
+        file_path,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        knowledge_objects.append(
+            json.load(file)
+        )
+
+
+# Convert Python objects into text for the prompt
+knowledge = json.dumps(
+    knowledge_objects,
+    indent=2
+)
+
+
+print(
+    f"Loaded {len(knowledge_objects)} "
+    f"knowledge objects."
+)
+
+
+# ============================================================
+# STEP 3: INITIALIZE GROQ LLM
+# ============================================================
+
 llm = ChatGroq(
     model="openai/gpt-oss-120b",
     temperature=0
 )
 
-# Step 3: Define prompt
+
+# ============================================================
+# STEP 4: DEFINE PROMPT
+# ============================================================
+
 prompt = ChatPromptTemplate.from_messages([
     (
         "system",
@@ -29,6 +75,12 @@ prompt = ChatPromptTemplate.from_messages([
 
         Do NOT add troubleshooting steps from your own knowledge.
 
+        The knowledge has been derived from historical customer
+        support tickets.
+
+        Prefer resolution actions with stronger historical
+        evidence.
+
         If the knowledge base does not contain enough information
         to answer the question, respond:
 
@@ -36,6 +88,7 @@ prompt = ChatPromptTemplate.from_messages([
         to resolve this issue."
 
         KNOWLEDGE BASE:
+
         {knowledge}
         """
     ),
@@ -45,18 +98,39 @@ prompt = ChatPromptTemplate.from_messages([
     )
 ])
 
-# Step 4: Create LangChain
+
+# ============================================================
+# STEP 5: CREATE LANGCHAIN
+# ============================================================
+
 chain = prompt | llm
 
-# Step 5: Get user input
-issue = input("Describe your IT issue: ")
 
-# Step 6: Invoke LLM
+# ============================================================
+# STEP 6: GET USER QUESTION
+# ============================================================
+
+issue = input(
+    "\nDescribe your IT issue: "
+)
+
+
+# ============================================================
+# STEP 7: ASK GPT
+# ============================================================
+
 response = chain.invoke({
-    "knowledge":knowledge,
+    "knowledge": knowledge,
     "user_issue": issue
 })
 
-# Step 7: Display response
+
+# ============================================================
+# STEP 8: DISPLAY RESPONSE
+# ============================================================
+
 print("\nAI Service Desk Response:\n")
-print(response.content)
+
+print(
+    response.content
+)

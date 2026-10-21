@@ -1,0 +1,25 @@
+{
+  "issue": "Outlook Connectivity",
+  "historical_ticket_count": 20,
+  "recommended_troubleshooting": [
+    {
+      "step": 1,
+      "action": "Restart Outlook and synchronize mailbox",
+      "evidence_count": 8,
+      "percentage": 40.0
+    },
+    {
+      "step": 2,
+      "action": "Restart Outlook",
+      "evidence_count": 8,
+      "percentage": 40.0
+    },
+    {
+      "step": 3,
+      "action": "Recreate Outlook profile",
+      "evidence_count": 4,
+      "percentage": 20.0
+    }
+  ],
+  "confidence": "HIGH"
+}

@@ -1,0 +1,101 @@
+ticket_id,issue_type,description,category,created_at,resolved_at,resolution_time,resolution_comment,knowledge_quality
+INC0098,Incident,User unable to authenticate with old password,Access,2026-09-23 10:07:00,2026-09-23 11:33:00,86.0,Reset domain password and user confirmed login,POTENTIAL
+INC0002,Incident,Remote corporate access not working,Network,2026-07-29 10:22:00,2026-07-29 10:58:00,36.0,Restarted PanGPS service and connection restored,POTENTIAL
+INC0086,Incident,User needs password reset,Access,2026-07-23 13:40:00,2026-07-23 15:35:00,115.0,Reset domain password and user confirmed login,POTENTIAL
+INC0099,Incident,Login failing because password expired,Access,2026-09-24 14:58:00,2026-09-24 16:31:00,93.0,Reset domain password and user confirmed login,POTENTIAL
+INC0044,Incident,Windows computer performance is very poor,Hardware,2026-07-09 08:32:00,2026-07-09 10:06:00,94.0,Freed disk space and restarted laptop,POTENTIAL
+INC0094,Incident,User unable to authenticate with old password,Access,2026-08-10 15:26:00,2026-08-10 18:11:00,165.0,Reset password through self service portal,POTENTIAL
+INC0003,Incident,GlobalProtect VPN unable to connect,Network,2026-09-14 15:12:00,2026-09-14 15:30:00,18.0,Restarted PanGPS service and connection restored,POTENTIAL
+INC0021,Incident,User unable to login because account keeps locking,Access,2026-09-22 16:31:00,2026-09-22 18:22:00,111.0,Updated stored credentials on mobile device,POTENTIAL
+INC0091,Incident,User unable to authenticate with old password,Access,2026-09-21 16:41:00,2026-09-21 18:33:00,112.0,Reset domain password and user confirmed login,POTENTIAL
+INC0049,Incident,Windows computer performance is very poor,Hardware,2026-08-29 08:55:00,2026-08-29 11:52:00,177.0,Cleared temporary files and recovered disk space,POTENTIAL
+INC0069,Incident,User unable to send or receive email in Outlook,Application,2026-09-18 17:36:00,2026-09-18 18:11:00,35.0,Restarted Outlook and synchronized mailbox,POTENTIAL
+INC0059,Incident,System performance is very slow,Hardware,2026-07-28 08:59:00,2026-07-28 11:37:00,158.0,Cleared temporary files and recovered disk space,POTENTIAL
+INC0054,Incident,Computer takes a long time to respond,Hardware,2026-09-08 08:15:00,2026-09-08 08:48:00,33.0,Removed temporary files and restarted device,POTENTIAL
+INC0053,Incident,Laptop is running very slow,Hardware,2026-08-26 17:23:00,2026-08-26 17:58:00,35.0,Disabled unnecessary startup applications,POTENTIAL
+INC0058,Incident,Computer takes a long time to respond,Hardware,2026-09-10 16:18:00,2026-09-10 17:07:00,49.0,Cleared temp files and browser cache,POTENTIAL
+INC0067,Incident,Outlook shows disconnected status,Application,2026-07-31 12:31:00,2026-07-31 14:22:00,111.0,Restarted Outlook client,POTENTIAL
+INC0035,Incident,Corporate account locked repeatedly,Access,2026-07-31 08:59:00,2026-07-31 10:10:00,71.0,Cleared cached Windows credentials,POTENTIAL
+INC0065,Incident,Outlook synchronization has stopped,Application,2026-07-11 15:09:00,2026-07-11 18:07:00,178.0,Restarted Outlook and synchronized mailbox,POTENTIAL
+INC0024,Incident,AD credentials continuously getting locked,Access,2026-08-16 11:44:00,2026-08-16 12:29:00,45.0,Cleared Credential Manager entries,POTENTIAL
+INC0088,Incident,User cannot remember Windows password,Access,2026-07-29 11:24:00,2026-07-29 13:31:00,127.0,Reset domain password and user confirmed login,POTENTIAL
+INC0014,Incident,Secure remote connection unavailable,Network,2026-08-18 12:44:00,2026-08-18 14:50:00,126.0,Restarted PanGPS service,POTENTIAL
+INC0051,Incident,User reports laptop has become extremely sluggish,Hardware,2026-07-25 17:09:00,2026-07-25 19:13:00,124.0,Removed unnecessary startup applications,POTENTIAL
+INC0062,Incident,Outlook synchronization has stopped,Application,2026-07-11 11:10:00,2026-07-11 11:37:00,27.0,Restarted Outlook and connection restored,POTENTIAL
+INC0033,Incident,Corporate account locked repeatedly,Access,2026-09-08 17:03:00,2026-09-08 17:13:00,10.0,Unlocked AD account and cleared cached credentials,POTENTIAL
+INC0076,Incident,Outlook remains offline despite internet working,Application,2026-07-27 12:30:00,2026-07-27 14:49:00,139.0,Restarted Outlook client,POTENTIAL
+INC0020,Incident,Secure remote connection unavailable,Network,2026-07-09 11:36:00,2026-07-09 14:11:00,155.0,Restarted PanGPS service,POTENTIAL
+INC0018,Incident,Secure remote connection unavailable,Network,2026-09-20 17:30:00,2026-09-20 18:36:00,66.0,Restarted PanGPS service and connection restored,POTENTIAL
+INC0017,Incident,GlobalProtect connection fails after login,Network,2026-08-01 10:47:00,2026-08-01 12:55:00,128.0,Refreshed VPN certificate and connection restored,POTENTIAL
+INC0077,Incident,Emails are not downloading in Outlook,Application,2026-07-07 09:34:00,2026-07-07 12:26:00,172.0,Restarted Outlook client,POTENTIAL
+INC0083,Incident,User needs password reset,Access,2026-07-06 14:06:00,2026-07-06 15:09:00,63.0,Reset password through self service portal,POTENTIAL
+INC0048,Incident,Applications are taking very long to open,Hardware,2026-09-23 15:21:00,2026-09-23 17:01:00,100.0,Removed unnecessary startup applications,POTENTIAL
+INC0009,Incident,VPN client fails to establish connection,Network,2026-07-13 14:07:00,2026-07-13 15:45:00,98.0,Refreshed VPN certificate and connection restored,POTENTIAL
+INC0038,Incident,AD credentials continuously getting locked,Access,2026-09-06 15:13:00,2026-09-06 16:17:00,64.0,Cleared cached Outlook credentials,POTENTIAL
+INC0008,Incident,User cannot connect to VPN from home,Network,2026-07-28 13:44:00,2026-07-28 14:20:00,36.0,Recreated GlobalProtect profile,POTENTIAL
+INC0047,Incident,Windows computer performance is very poor,Hardware,2026-08-30 14:56:00,2026-08-30 15:54:00,58.0,Cleared temporary files and recovered disk space,POTENTIAL
+INC0036,Incident,AD credentials continuously getting locked,Access,2026-07-11 16:17:00,2026-07-11 16:44:00,27.0,Updated stored credentials on mobile device,POTENTIAL
+INC0074,Incident,User cannot access mailbox through Outlook,Application,2026-08-03 09:58:00,2026-08-03 10:35:00,37.0,Recreated Outlook profile,POTENTIAL
+INC0081,Request,User unable to authenticate with old password,Access,2026-07-05 14:18:00,2026-07-05 16:57:00,159.0,Password reset completed and user logged in,POTENTIAL
+INC0034,Incident,Domain credentials repeatedly getting locked,Access,2026-09-01 08:19:00,2026-09-01 08:57:00,38.0,Unlocked AD account and cleared cached credentials,POTENTIAL
+INC0072,Incident,Outlook synchronization has stopped,Application,2026-08-26 17:16:00,2026-08-26 18:43:00,87.0,Restarted Outlook and synchronized mailbox,POTENTIAL
+INC0015,Incident,VPN authentication keeps failing,Network,2026-08-17 14:03:00,2026-08-17 15:06:00,63.0,Recreated VPN profile,POTENTIAL
+INC0080,Incident,Outlook shows disconnected status,Application,2026-07-02 09:54:00,2026-07-02 10:23:00,29.0,Restarted Outlook and synchronized mailbox,POTENTIAL
+INC0007,Incident,VPN authentication keeps failing,Network,2026-07-21 15:12:00,2026-07-21 16:49:00,97.0,Restarted PanGPS service,POTENTIAL
+INC0092,Incident,Unable to sign in after password expiry,Access,2026-07-04 09:58:00,2026-07-04 11:14:00,76.0,Reset domain password and user confirmed login,POTENTIAL
+INC0085,Request,Login failing because password expired,Access,2026-07-31 10:46:00,2026-07-31 11:41:00,55.0,Reset password through self service portal,POTENTIAL
+INC0010,Incident,User cannot connect to VPN from home,Network,2026-07-06 15:50:00,2026-07-06 18:17:00,147.0,Recreated GlobalProtect profile,POTENTIAL
+INC0016,Incident,Remote access connection is failing,Network,2026-09-26 09:13:00,2026-09-26 11:58:00,165.0,Refreshed VPN certificate,POTENTIAL
+INC0068,Incident,Outlook cannot connect to mailbox,Application,2026-08-28 13:23:00,2026-08-28 13:51:00,28.0,Recreated mail profile,POTENTIAL
+INC0064,Incident,Outlook cannot connect to mailbox,Application,2026-08-01 17:52:00,2026-08-01 20:34:00,162.0,Restarted Outlook and synchronized mailbox,POTENTIAL
+INC0025,Incident,Unable to login because domain account is locked,Access,2026-07-12 08:48:00,2026-07-12 09:26:00,38.0,Cleared cached Outlook credentials,POTENTIAL
+INC0045,Incident,Computer takes a long time to respond,Hardware,2026-07-31 12:45:00,2026-07-31 14:59:00,134.0,Freed disk space and restarted laptop,POTENTIAL
+INC0046,Incident,User experiencing poor laptop performance,Hardware,2026-07-17 17:44:00,2026-07-17 20:21:00,157.0,Removed temporary files and restarted device,POTENTIAL
+INC0013,Incident,Unable to access corporate network remotely,Network,2026-07-30 12:56:00,2026-07-30 13:26:00,30.0,Restarted PanGPS service and connection restored,POTENTIAL
+INC0100,Incident,Login failing because password expired,Access,2026-09-09 10:10:00,2026-09-09 11:09:00,59.0,Guided user through self service password reset,POTENTIAL
+INC0041,Incident,Windows computer performance is very poor,Hardware,2026-07-16 12:13:00,2026-07-16 13:20:00,67.0,Cleared temp files and browser cache,POTENTIAL
+INC0089,Request,User needs password reset,Access,2026-07-30 11:48:00,2026-07-30 12:04:00,16.0,Guided user through self service password reset,POTENTIAL
+INC0030,Incident,AD credentials continuously getting locked,Access,2026-08-28 08:03:00,2026-08-28 09:20:00,77.0,Updated stored credentials on mobile device,POTENTIAL
+INC0005,Incident,Remote corporate access not working,Network,2026-09-10 11:23:00,2026-09-10 14:19:00,176.0,Recreated GlobalProtect profile,POTENTIAL
+INC0050,Incident,Computer takes a long time to respond,Hardware,2026-08-21 13:47:00,2026-08-21 14:24:00,37.0,Removed temporary files and restarted device,POTENTIAL
+INC0055,Incident,Computer takes a long time to respond,Hardware,2026-08-22 16:17:00,2026-08-22 18:30:00,133.0,Removed unnecessary startup applications,POTENTIAL
+INC0070,Incident,Outlook shows disconnected status,Application,2026-07-28 16:38:00,2026-07-28 17:55:00,77.0,Restarted Outlook client,POTENTIAL
+INC0093,Request,Login failing because password expired,Access,2026-07-05 09:51:00,2026-07-05 12:33:00,162.0,Reset domain password and user confirmed login,POTENTIAL
+INC0063,Incident,User unable to send or receive email in Outlook,Application,2026-09-25 12:00:00,2026-09-25 13:53:00,113.0,Restarted Outlook and synchronized mailbox,POTENTIAL
+INC0032,Incident,Domain credentials repeatedly getting locked,Access,2026-09-03 11:23:00,2026-09-03 12:12:00,49.0,Updated stored credentials on mobile device,POTENTIAL
+INC0006,Incident,VPN authentication keeps failing,Network,2026-07-29 15:39:00,2026-07-29 18:19:00,160.0,Restarted PanGPS service and connection restored,POTENTIAL
+INC0004,Incident,VPN client fails to establish connection,Network,2026-07-28 11:58:00,2026-07-28 14:17:00,139.0,Restarted PanGPS service and connection restored,POTENTIAL
+INC0019,Incident,GlobalProtect connection fails after login,Network,2026-07-30 08:32:00,2026-07-30 10:02:00,90.0,Refreshed VPN certificate and connection restored,POTENTIAL
+INC0026,Incident,User account repeatedly locks after password change,Access,2026-07-21 15:12:00,2026-07-21 17:54:00,162.0,Cleared Credential Manager entries,POTENTIAL
+INC0029,Incident,Account locks shortly after user changes password,Access,2026-08-13 09:54:00,2026-08-13 11:19:00,85.0,Updated stored credentials on mobile device,POTENTIAL
+INC0040,Incident,AD credentials continuously getting locked,Access,2026-09-22 14:22:00,2026-09-22 16:24:00,122.0,Cleared Credential Manager entries,POTENTIAL
+INC0031,Incident,User cannot sign in due to account lockout,Access,2026-09-03 09:48:00,2026-09-03 12:38:00,170.0,Cleared cached Outlook credentials,POTENTIAL
+INC0012,Incident,GlobalProtect VPN unable to connect,Network,2026-09-12 11:16:00,2026-09-12 11:43:00,27.0,Recreated VPN profile,POTENTIAL
+INC0043,Incident,Laptop is running very slow,Hardware,2026-07-01 09:12:00,2026-07-01 12:03:00,171.0,Removed temporary files and restarted device,POTENTIAL
+INC0097,Request,User cannot remember Windows password,Access,2026-08-16 15:21:00,2026-08-16 15:48:00,27.0,Reset domain password and user confirmed login,POTENTIAL
+INC0090,Incident,Corporate password reset required,Access,2026-08-12 12:45:00,2026-08-12 13:12:00,27.0,Reset domain password and user confirmed login,POTENTIAL
+INC0011,Incident,VPN client fails to establish connection,Network,2026-07-11 17:25:00,2026-07-11 18:50:00,85.0,Refreshed VPN certificate and connection restored,POTENTIAL
+INC0022,Incident,AD credentials continuously getting locked,Access,2026-08-03 10:22:00,2026-08-03 11:35:00,73.0,Unlocked Active Directory account,POTENTIAL
+INC0061,Incident,Outlook cannot connect to mailbox,Application,2026-09-03 17:03:00,2026-09-03 17:53:00,50.0,Restarted Outlook and synchronized mailbox,POTENTIAL
+INC0066,Incident,Email client cannot connect to Microsoft 365,Application,2026-09-05 13:23:00,2026-09-05 14:39:00,76.0,Restarted Outlook client,POTENTIAL
+INC0028,Incident,User cannot sign in due to account lockout,Access,2026-07-02 09:57:00,2026-07-02 12:24:00,147.0,Cleared cached Outlook credentials,POTENTIAL
+INC0082,Incident,Corporate password reset required,Access,2026-08-25 10:10:00,2026-08-25 10:30:00,20.0,Reset domain password and user confirmed login,POTENTIAL
+INC0057,Incident,Applications are taking very long to open,Hardware,2026-08-03 15:45:00,2026-08-03 17:08:00,83.0,Disabled unnecessary startup applications,POTENTIAL
+INC0060,Incident,Laptop freezes and responds slowly,Hardware,2026-08-10 08:58:00,2026-08-10 09:20:00,22.0,Removed unnecessary startup applications,POTENTIAL
+INC0042,Incident,Laptop freezes and responds slowly,Hardware,2026-07-03 17:27:00,2026-07-03 18:35:00,68.0,Removed temporary files and restarted device,POTENTIAL
+INC0084,Incident,Account password needs to be changed,Access,2026-08-15 17:33:00,2026-08-15 19:27:00,114.0,Password reset completed and user logged in,POTENTIAL
+INC0078,Incident,Outlook shows disconnected status,Application,2026-07-06 08:03:00,2026-07-06 09:38:00,95.0,Restarted Outlook client,POTENTIAL
+INC0075,Incident,Email client cannot connect to Microsoft 365,Application,2026-08-04 12:48:00,2026-08-04 15:32:00,164.0,Restarted Outlook client,POTENTIAL
+INC0056,Incident,Laptop is running very slow,Hardware,2026-07-08 10:48:00,2026-07-08 12:35:00,107.0,Removed unnecessary startup applications,POTENTIAL
+INC0027,Incident,User cannot sign in due to account lockout,Access,2026-08-18 15:59:00,2026-08-18 18:24:00,145.0,Unlocked Active Directory account,POTENTIAL
+INC0037,Incident,Unable to login because domain account is locked,Access,2026-07-17 16:06:00,2026-07-17 18:36:00,150.0,Unlocked AD account and cleared cached credentials,POTENTIAL
+INC0095,Incident,Corporate password reset required,Access,2026-08-19 17:50:00,2026-08-19 18:48:00,58.0,Reset password through self service portal,POTENTIAL
+INC0001,Incident,VPN authentication keeps failing,Network,2026-09-20 09:54:00,2026-09-20 10:10:00,16.0,Restarted PanGPS service,POTENTIAL
+INC0071,Incident,Outlook mailbox is not updating,Application,2026-07-09 12:10:00,2026-07-09 13:54:00,104.0,Recreated Outlook profile,POTENTIAL
+INC0052,Incident,Computer takes a long time to respond,Hardware,2026-07-24 12:45:00,2026-07-24 14:53:00,128.0,Cleared temporary files and recovered disk space,POTENTIAL
+INC0039,Incident,Account locks shortly after user changes password,Access,2026-09-27 11:25:00,2026-09-27 12:54:00,89.0,Cleared cached Outlook credentials,POTENTIAL
+INC0073,Incident,User unable to send or receive email in Outlook,Application,2026-07-02 17:27:00,2026-07-02 18:53:00,86.0,Recreated Outlook profile,POTENTIAL
+INC0079,Incident,Emails are not downloading in Outlook,Application,2026-07-21 15:32:00,2026-07-21 18:03:00,151.0,Restarted Outlook and synchronized mailbox,POTENTIAL
+INC0023,Incident,Corporate account locked repeatedly,Access,2026-08-03 17:58:00,2026-08-03 19:57:00,119.0,Cleared Credential Manager entries,POTENTIAL
+INC0096,Incident,User unable to authenticate with old password,Access,2026-09-29 15:26:00,2026-09-29 15:36:00,10.0,Password reset completed and user logged in,POTENTIAL
+INC0087,Incident,User forgot corporate password,Access,2026-07-21 09:50:00,2026-07-21 11:37:00,107.0,Guided user through self service password reset,POTENTIAL

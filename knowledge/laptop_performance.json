@@ -1,0 +1,37 @@
+{
+  "issue": "Laptop Performance",
+  "historical_ticket_count": 10,
+  "recommended_troubleshooting": [
+    {
+      "step": 1,
+      "action": "Clear temporary files and free disk space",
+      "evidence_count": 3,
+      "percentage": 30.0
+    },
+    {
+      "step": 2,
+      "action": "Disable unnecessary startup applications",
+      "evidence_count": 3,
+      "percentage": 30.0
+    },
+    {
+      "step": 3,
+      "action": "Clear temporary files and restart device",
+      "evidence_count": 2,
+      "percentage": 20.0
+    },
+    {
+      "step": 4,
+      "action": "Free disk space and restart device",
+      "evidence_count": 1,
+      "percentage": 10.0
+    },
+    {
+      "step": 5,
+      "action": "Clear temporary files and clear browser cache",
+      "evidence_count": 1,
+      "percentage": 10.0
+    }
+  ],
+  "confidence": "HIGH"
+}

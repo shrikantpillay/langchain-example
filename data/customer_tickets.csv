@@ -1,6 +1,101 @@
-Incident Number,Ticket Type,Problem Summary,Classification,Logged Date,Closure Date,Engineer Resolution
-INC001,Incident,GlobalProtect VPN unable to connect,Network,2026-10-01 09:15,2026-10-01 09:45,Restarted PanGPS service and user confirmed VPN working
-INC002,Incident,Laptop running very slow,Hardware,2026-10-01 10:00,2026-10-01 11:30,Cleared temporary files and recovered 18 GB disk space
-INC003,Request,Password expired,Access,2026-10-02 08:30,2026-10-02 08:45,Password reset completed through self service portal
-INC004,Incident,Outlook cannot connect,Application,2026-10-02 14:00,2026-10-02 14:25,Restarted Outlook and user confirmed service restored
-INC005,Incident,VPN authentication failure,Network,2026-10-03 11:10,2026-10-03 11:50,Refreshed VPN certificate and connection restored
+Incident Number	Ticket Type	Problem Summary	Classification	Logged Date	Closure Date	Engineer Resolution
+INC0098	Incident	User unable to authenticate with old password	Access	2026-09-23 10:07	2026-09-23 11:33	Reset domain password and user confirmed login
+INC0002	Incident	Remote corporate access not working	Network	2026-07-29 10:22	2026-07-29 10:58	Restarted PanGPS service and connection restored
+INC0086	Incident	User needs password reset	Access	2026-07-23 13:40	2026-07-23 15:35	Reset domain password and user confirmed login
+INC0099	Incident	Login failing because password expired	Access	2026-09-24 14:58	2026-09-24 16:31	Reset domain password and user confirmed login
+INC0044	Incident	Windows computer performance is very poor	Hardware	2026-07-09 08:32	2026-07-09 10:06	Freed disk space and restarted laptop
+INC0094	Incident	User unable to authenticate with old password	Access	2026-08-10 15:26	2026-08-10 18:11	Reset password through self service portal
+INC0003	Incident	GlobalProtect VPN unable to connect	Network	2026-09-14 15:12	2026-09-14 15:30	Restarted PanGPS service and connection restored
+INC0021	Incident	User unable to login because account keeps locking	Access	2026-09-22 16:31	2026-09-22 18:22	Updated stored credentials on mobile device
+INC0091	Incident	User unable to authenticate with old password	Access	2026-09-21 16:41	2026-09-21 18:33	Reset domain password and user confirmed login
+INC0049	Incident	Windows computer performance is very poor	Hardware	2026-08-29 08:55	2026-08-29 11:52	Cleared temporary files and recovered disk space
+INC0069	Incident	User unable to send or receive email in Outlook	Application	2026-09-18 17:36	2026-09-18 18:11	Restarted Outlook and synchronized mailbox
+INC0059	Incident	System performance is very slow	Hardware	2026-07-28 08:59	2026-07-28 11:37	Cleared temporary files and recovered disk space
+INC0054	Incident	Computer takes a long time to respond	Hardware	2026-09-08 08:15	2026-09-08 08:48	Removed temporary files and restarted device
+INC0053	Incident	Laptop is running very slow	Hardware	2026-08-26 17:23	2026-08-26 17:58	Disabled unnecessary startup applications
+INC0058	Incident	Computer takes a long time to respond	Hardware	2026-09-10 16:18	2026-09-10 17:07	Cleared temp files and browser cache
+INC0067	Incident	Outlook shows disconnected status	Application	2026-07-31 12:31	2026-07-31 14:22	Restarted Outlook client
+INC0035	Incident	Corporate account locked repeatedly	Access	2026-07-31 08:59	2026-07-31 10:10	Cleared cached Windows credentials
+INC0065	Incident	Outlook synchronization has stopped	Application	2026-07-11 15:09	2026-07-11 18:07	Restarted Outlook and synchronized mailbox
+INC0024	Incident	AD credentials continuously getting locked	Access	2026-08-16 11:44	2026-08-16 12:29	Cleared Credential Manager entries
+INC0088	Incident	User cannot remember Windows password	Access	2026-07-29 11:24	2026-07-29 13:31	Reset domain password and user confirmed login
+INC0014	Incident	Secure remote connection unavailable	Network	2026-08-18 12:44	2026-08-18 14:50	Restarted PanGPS service
+INC0051	Incident	User reports laptop has become extremely sluggish	Hardware	2026-07-25 17:09	2026-07-25 19:13	Removed unnecessary startup applications
+INC0062	Incident	Outlook synchronization has stopped	Application	2026-07-11 11:10	2026-07-11 11:37	Restarted Outlook and connection restored
+INC0033	Incident	Corporate account locked repeatedly	Access	2026-09-08 17:03	2026-09-08 17:13	Unlocked AD account and cleared cached credentials
+INC0076	Incident	Outlook remains offline despite internet working	Application	2026-07-27 12:30	2026-07-27 14:49	Restarted Outlook client
+INC0020	Incident	Secure remote connection unavailable	Network	2026-07-09 11:36	2026-07-09 14:11	Restarted PanGPS service
+INC0018	Incident	Secure remote connection unavailable	Network	2026-09-20 17:30	2026-09-20 18:36	Restarted PanGPS service and connection restored
+INC0017	Incident	GlobalProtect connection fails after login	Network	2026-08-01 10:47	2026-08-01 12:55	Refreshed VPN certificate and connection restored
+INC0077	Incident	Emails are not downloading in Outlook	Application	2026-07-07 09:34	2026-07-07 12:26	Restarted Outlook client
+INC0083	Incident	User needs password reset	Access	2026-07-06 14:06	2026-07-06 15:09	Reset password through self service portal
+INC0048	Incident	Applications are taking very long to open	Hardware	2026-09-23 15:21	2026-09-23 17:01	Removed unnecessary startup applications
+INC0009	Incident	VPN client fails to establish connection	Network	2026-07-13 14:07	2026-07-13 15:45	Refreshed VPN certificate and connection restored
+INC0038	Incident	AD credentials continuously getting locked	Access	2026-09-06 15:13	2026-09-06 16:17	Cleared cached Outlook credentials
+INC0008	Incident	User cannot connect to VPN from home	Network	2026-07-28 13:44	2026-07-28 14:20	Recreated GlobalProtect profile
+INC0047	Incident	Windows computer performance is very poor	Hardware	2026-08-30 14:56	2026-08-30 15:54	Cleared temporary files and recovered disk space
+INC0036	Incident	AD credentials continuously getting locked	Access	2026-07-11 16:17	2026-07-11 16:44	Updated stored credentials on mobile device
+INC0074	Incident	User cannot access mailbox through Outlook	Application	2026-08-03 09:58	2026-08-03 10:35	Recreated Outlook profile
+INC0081	Request	User unable to authenticate with old password	Access	2026-07-05 14:18	2026-07-05 16:57	Password reset completed and user logged in
+INC0034	Incident	Domain credentials repeatedly getting locked	Access	2026-09-01 08:19	2026-09-01 08:57	Unlocked AD account and cleared cached credentials
+INC0072	Incident	Outlook synchronization has stopped	Application	2026-08-26 17:16	2026-08-26 18:43	Restarted Outlook and synchronized mailbox
+INC0015	Incident	VPN authentication keeps failing	Network	2026-08-17 14:03	2026-08-17 15:06	Recreated VPN profile
+INC0080	Incident	Outlook shows disconnected status	Application	2026-07-02 09:54	2026-07-02 10:23	Restarted Outlook and synchronized mailbox
+INC0007	Incident	VPN authentication keeps failing	Network	2026-07-21 15:12	2026-07-21 16:49	Restarted PanGPS service
+INC0092	Incident	Unable to sign in after password expiry	Access	2026-07-04 09:58	2026-07-04 11:14	Reset domain password and user confirmed login
+INC0085	Request	Login failing because password expired	Access	2026-07-31 10:46	2026-07-31 11:41	Reset password through self service portal
+INC0010	Incident	User cannot connect to VPN from home	Network	2026-07-06 15:50	2026-07-06 18:17	Recreated GlobalProtect profile
+INC0016	Incident	Remote access connection is failing	Network	2026-09-26 09:13	2026-09-26 11:58	Refreshed VPN certificate
+INC0068	Incident	Outlook cannot connect to mailbox	Application	2026-08-28 13:23	2026-08-28 13:51	Recreated mail profile
+INC0064	Incident	Outlook cannot connect to mailbox	Application	2026-08-01 17:52	2026-08-01 20:34	Restarted Outlook and synchronized mailbox
+INC0025	Incident	Unable to login because domain account is locked	Access	2026-07-12 08:48	2026-07-12 09:26	Cleared cached Outlook credentials
+INC0045	Incident	Computer takes a long time to respond	Hardware	2026-07-31 12:45	2026-07-31 14:59	Freed disk space and restarted laptop
+INC0046	Incident	User experiencing poor laptop performance	Hardware	2026-07-17 17:44	2026-07-17 20:21	Removed temporary files and restarted device
+INC0013	Incident	Unable to access corporate network remotely	Network	2026-07-30 12:56	2026-07-30 13:26	Restarted PanGPS service and connection restored
+INC0100	Incident	Login failing because password expired	Access	2026-09-09 10:10	2026-09-09 11:09	Guided user through self service password reset
+INC0041	Incident	Windows computer performance is very poor	Hardware	2026-07-16 12:13	2026-07-16 13:20	Cleared temp files and browser cache
+INC0089	Request	User needs password reset	Access	2026-07-30 11:48	2026-07-30 12:04	Guided user through self service password reset
+INC0030	Incident	AD credentials continuously getting locked	Access	2026-08-28 08:03	2026-08-28 09:20	Updated stored credentials on mobile device
+INC0005	Incident	Remote corporate access not working	Network	2026-09-10 11:23	2026-09-10 14:19	Recreated GlobalProtect profile
+INC0050	Incident	Computer takes a long time to respond	Hardware	2026-08-21 13:47	2026-08-21 14:24	Removed temporary files and restarted device
+INC0055	Incident	Computer takes a long time to respond	Hardware	2026-08-22 16:17	2026-08-22 18:30	Removed unnecessary startup applications
+INC0070	Incident	Outlook shows disconnected status	Application	2026-07-28 16:38	2026-07-28 17:55	Restarted Outlook client
+INC0093	Request	Login failing because password expired	Access	2026-07-05 09:51	2026-07-05 12:33	Reset domain password and user confirmed login
+INC0063	Incident	User unable to send or receive email in Outlook	Application	2026-09-25 12:00	2026-09-25 13:53	Restarted Outlook and synchronized mailbox
+INC0032	Incident	Domain credentials repeatedly getting locked	Access	2026-09-03 11:23	2026-09-03 12:12	Updated stored credentials on mobile device
+INC0006	Incident	VPN authentication keeps failing	Network	2026-07-29 15:39	2026-07-29 18:19	Restarted PanGPS service and connection restored
+INC0004	Incident	VPN client fails to establish connection	Network	2026-07-28 11:58	2026-07-28 14:17	Restarted PanGPS service and connection restored
+INC0019	Incident	GlobalProtect connection fails after login	Network	2026-07-30 08:32	2026-07-30 10:02	Refreshed VPN certificate and connection restored
+INC0026	Incident	User account repeatedly locks after password change	Access	2026-07-21 15:12	2026-07-21 17:54	Cleared Credential Manager entries
+INC0029	Incident	Account locks shortly after user changes password	Access	2026-08-13 09:54	2026-08-13 11:19	Updated stored credentials on mobile device
+INC0040	Incident	AD credentials continuously getting locked	Access	2026-09-22 14:22	2026-09-22 16:24	Cleared Credential Manager entries
+INC0031	Incident	User cannot sign in due to account lockout	Access	2026-09-03 09:48	2026-09-03 12:38	Cleared cached Outlook credentials
+INC0012	Incident	GlobalProtect VPN unable to connect	Network	2026-09-12 11:16	2026-09-12 11:43	Recreated VPN profile
+INC0043	Incident	Laptop is running very slow	Hardware	2026-07-01 09:12	2026-07-01 12:03	Removed temporary files and restarted device
+INC0097	Request	User cannot remember Windows password	Access	2026-08-16 15:21	2026-08-16 15:48	Reset domain password and user confirmed login
+INC0090	Incident	Corporate password reset required	Access	2026-08-12 12:45	2026-08-12 13:12	Reset domain password and user confirmed login
+INC0011	Incident	VPN client fails to establish connection	Network	2026-07-11 17:25	2026-07-11 18:50	Refreshed VPN certificate and connection restored
+INC0022	Incident	AD credentials continuously getting locked	Access	2026-08-03 10:22	2026-08-03 11:35	Unlocked Active Directory account
+INC0061	Incident	Outlook cannot connect to mailbox	Application	2026-09-03 17:03	2026-09-03 17:53	Restarted Outlook and synchronized mailbox
+INC0066	Incident	Email client cannot connect to Microsoft 365	Application	2026-09-05 13:23	2026-09-05 14:39	Restarted Outlook client
+INC0028	Incident	User cannot sign in due to account lockout	Access	2026-07-02 09:57	2026-07-02 12:24	Cleared cached Outlook credentials
+INC0082	Incident	Corporate password reset required	Access	2026-08-25 10:10	2026-08-25 10:30	Reset domain password and user confirmed login
+INC0057	Incident	Applications are taking very long to open	Hardware	2026-08-03 15:45	2026-08-03 17:08	Disabled unnecessary startup applications
+INC0060	Incident	Laptop freezes and responds slowly	Hardware	2026-08-10 08:58	2026-08-10 09:20	Removed unnecessary startup applications
+INC0042	Incident	Laptop freezes and responds slowly	Hardware	2026-07-03 17:27	2026-07-03 18:35	Removed temporary files and restarted device
+INC0084	Incident	Account password needs to be changed	Access	2026-08-15 17:33	2026-08-15 19:27	Password reset completed and user logged in
+INC0078	Incident	Outlook shows disconnected status	Application	2026-07-06 08:03	2026-07-06 09:38	Restarted Outlook client
+INC0075	Incident	Email client cannot connect to Microsoft 365	Application	2026-08-04 12:48	2026-08-04 15:32	Restarted Outlook client
+INC0056	Incident	Laptop is running very slow	Hardware	2026-07-08 10:48	2026-07-08 12:35	Removed unnecessary startup applications
+INC0027	Incident	User cannot sign in due to account lockout	Access	2026-08-18 15:59	2026-08-18 18:24	Unlocked Active Directory account
+INC0037	Incident	Unable to login because domain account is locked	Access	2026-07-17 16:06	2026-07-17 18:36	Unlocked AD account and cleared cached credentials
+INC0095	Incident	Corporate password reset required	Access	2026-08-19 17:50	2026-08-19 18:48	Reset password through self service portal
+INC0001	Incident	VPN authentication keeps failing	Network	2026-09-20 09:54	2026-09-20 10:10	Restarted PanGPS service
+INC0071	Incident	Outlook mailbox is not updating	Application	2026-07-09 12:10	2026-07-09 13:54	Recreated Outlook profile
+INC0052	Incident	Computer takes a long time to respond	Hardware	2026-07-24 12:45	2026-07-24 14:53	Cleared temporary files and recovered disk space
+INC0039	Incident	Account locks shortly after user changes password	Access	2026-09-27 11:25	2026-09-27 12:54	Cleared cached Outlook credentials
+INC0073	Incident	User unable to send or receive email in Outlook	Application	2026-07-02 17:27	2026-07-02 18:53	Recreated Outlook profile
+INC0079	Incident	Emails are not downloading in Outlook	Application	2026-07-21 15:32	2026-07-21 18:03	Restarted Outlook and synchronized mailbox
+INC0023	Incident	Corporate account locked repeatedly	Access	2026-08-03 17:58	2026-08-03 19:57	Cleared Credential Manager entries
+INC0096	Incident	User unable to authenticate with old password	Access	2026-09-29 15:26	2026-09-29 15:36	Password reset completed and user logged in
+INC0087	Incident	User forgot corporate password	Access	2026-07-21 09:50	2026-07-21 11:37	Guided user through self service password reset

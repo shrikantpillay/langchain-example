@@ -1,0 +1,25 @@
+{
+  "issue": "VPN Connectivity",
+  "historical_ticket_count": 20,
+  "recommended_troubleshooting": [
+    {
+      "step": 1,
+      "action": "Restart PanGPS service",
+      "evidence_count": 10,
+      "percentage": 50.0
+    },
+    {
+      "step": 2,
+      "action": "Refresh VPN certificate",
+      "evidence_count": 5,
+      "percentage": 25.0
+    },
+    {
+      "step": 3,
+      "action": "Recreate VPN profile",
+      "evidence_count": 5,
+      "percentage": 25.0
+    }
+  ],
+  "confidence": "HIGH"
+}

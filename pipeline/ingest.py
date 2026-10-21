@@ -40,7 +40,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 DATA_FILE = PROJECT_ROOT / "data" / "customer_tickets.csv"
 
-df = pd.read_csv(DATA_FILE)
+df = pd.read_csv(DATA_FILE, sep="\t")
 
 print("\n--- DATASET LOADED ---")
 print(f"Rows: {len(df)}")
