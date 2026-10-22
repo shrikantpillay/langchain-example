@@ -1,3 +1,7 @@
+# ============================================================
+# IMPORTS
+# ============================================================
+
 import json
 import truststore
 
@@ -10,17 +14,27 @@ from langchain_core.prompts import ChatPromptTemplate
 
 
 # ============================================================
-# STEP 1: LOAD API KEY
+# STEP 1: LOAD ENVIRONMENT VARIABLES
 # ============================================================
 
 load_dotenv()
 
 
 # ============================================================
-# STEP 2: LOAD KNOWLEDGE OBJECTS
+# STEP 2: FIND KNOWLEDGE FOLDER
 # ============================================================
 
-KNOWLEDGE_FOLDER = Path("knowledge")
+PROJECT_ROOT = Path(__file__).resolve().parent
+
+KNOWLEDGE_FOLDER = (
+    PROJECT_ROOT
+    / "knowledge"
+)
+
+
+# ============================================================
+# STEP 3: LOAD ALL KNOWLEDGE JSON FILES
+# ============================================================
 
 knowledge_objects = []
 
@@ -37,13 +51,6 @@ for file_path in KNOWLEDGE_FOLDER.glob("*.json"):
         )
 
 
-# Convert Python objects into text for the prompt
-knowledge = json.dumps(
-    knowledge_objects,
-    indent=2
-)
-
-
 print(
     f"Loaded {len(knowledge_objects)} "
     f"knowledge objects."
@@ -51,7 +58,17 @@ print(
 
 
 # ============================================================
-# STEP 3: INITIALIZE GROQ LLM
+# STEP 4: CONVERT KNOWLEDGE INTO TEXT
+# ============================================================
+
+knowledge = json.dumps(
+    knowledge_objects,
+    indent=2
+)
+
+
+# ============================================================
+# STEP 5: INITIALIZE GROQ LLM
 # ============================================================
 
 llm = ChatGroq(
@@ -61,7 +78,7 @@ llm = ChatGroq(
 
 
 # ============================================================
-# STEP 4: DEFINE PROMPT
+# STEP 6: DEFINE THE PROMPT
 # ============================================================
 
 prompt = ChatPromptTemplate.from_messages([
@@ -75,14 +92,14 @@ prompt = ChatPromptTemplate.from_messages([
 
         Do NOT add troubleshooting steps from your own knowledge.
 
-        The knowledge has been derived from historical customer
-        support tickets.
+        The knowledge base has been generated from historical
+        customer support tickets.
 
-        Prefer resolution actions with stronger historical
+        Prefer resolution actions that have stronger historical
         evidence.
 
         If the knowledge base does not contain enough information
-        to answer the question, respond:
+        to answer the user's question, respond:
 
         "I do not have enough information in the knowledge base
         to resolve this issue."
@@ -100,37 +117,42 @@ prompt = ChatPromptTemplate.from_messages([
 
 
 # ============================================================
-# STEP 5: CREATE LANGCHAIN
+# STEP 7: CREATE LANGCHAIN
 # ============================================================
 
 chain = prompt | llm
 
 
 # ============================================================
-# STEP 6: GET USER QUESTION
+# STEP 8: CREATE REUSABLE HELPDESK FUNCTION
 # ============================================================
 
-issue = input(
-    "\nDescribe your IT issue: "
-)
+def ask_helpdesk(issue):
 
+    response = chain.invoke({
+        "knowledge": knowledge,
+        "user_issue": issue
+    })
 
-# ============================================================
-# STEP 7: ASK GPT
-# ============================================================
-
-response = chain.invoke({
-    "knowledge": knowledge,
-    "user_issue": issue
-})
+    return response.content
 
 
 # ============================================================
-# STEP 8: DISPLAY RESPONSE
+# STEP 9: COMMAND-LINE TEST
 # ============================================================
 
-print("\nAI Service Desk Response:\n")
+if __name__ == "__main__":
 
-print(
-    response.content
-)
+    issue = input(
+        "\nDescribe your IT issue: "
+    )
+
+    answer = ask_helpdesk(
+        issue
+    )
+
+    print(
+        "\nAI Service Desk Response:\n"
+    )
+
+    print(answer)

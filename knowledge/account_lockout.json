@@ -4,49 +4,55 @@
   "recommended_troubleshooting": [
     {
       "step": 1,
-      "action": "Update stored credentials on mobile device",
+      "action": "Update mobile device credentials",
       "evidence_count": 5,
       "percentage": 19.2
     },
     {
       "step": 2,
-      "action": "Unlock AD account",
-      "evidence_count": 5,
-      "percentage": 19.2
-    },
-    {
-      "step": 3,
       "action": "Clear cached Outlook credentials",
       "evidence_count": 5,
       "percentage": 19.2
     },
     {
-      "step": 4,
+      "step": 3,
       "action": "Clear Credential Manager entries",
       "evidence_count": 4,
       "percentage": 15.4
     },
     {
-      "step": 5,
+      "step": 4,
       "action": "Reset domain password",
       "evidence_count": 4,
       "percentage": 15.4
     },
     {
+      "step": 5,
+      "action": "Unlock AD account and clear cached credentials",
+      "evidence_count": 3,
+      "percentage": 11.5
+    },
+    {
       "step": 6,
+      "action": "Unlock AD account",
+      "evidence_count": 2,
+      "percentage": 7.7
+    },
+    {
+      "step": 7,
       "action": "Clear cached Windows credentials",
       "evidence_count": 1,
       "percentage": 3.8
     },
     {
-      "step": 7,
-      "action": "Reset password via self service portal",
+      "step": 8,
+      "action": "Reset password via self-service portal",
       "evidence_count": 1,
       "percentage": 3.8
     },
     {
-      "step": 8,
-      "action": "Guide user through self service password reset",
+      "step": 9,
+      "action": "Assist user with self-service password reset",
       "evidence_count": 1,
       "percentage": 3.8
     }
